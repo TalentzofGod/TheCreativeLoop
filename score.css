@@ -1,0 +1,68 @@
+* {
+  margin: 1px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: Arial;
+}
+.logo {
+  background: black;
+  font-family: Times new roman;
+  font-weight: 200;
+}
+.live, .cz {
+  color: red;
+}
+.score {
+  color: white;
+}
+.navbar, .navlink, .dayslink, .gameslink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  color: skyblue;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  
+}
+.socactive {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.soccer {
+  margin-top: 8px;
+  background: green;
+  color: white;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.bet {
+  color: red;
+}
+.england {
+  margin-top: 10px;
+}
+.england, .france, .germany, .standing {
+  background: black;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.min, .gamescore {
+  color: red;
+  font-weight: 400;
+}
+.gamescore {
+  text-decoration: underline;
+}
